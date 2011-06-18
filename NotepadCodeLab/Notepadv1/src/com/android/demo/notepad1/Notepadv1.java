@@ -23,6 +23,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.SimpleCursorAdapter;
 
+
 public class Notepadv1 extends ListActivity {
 	private int mNoteNumber = 1;
 	private NotesDbAdapter mDbHelper;
