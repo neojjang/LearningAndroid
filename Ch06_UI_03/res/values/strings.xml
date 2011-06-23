@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UIExample</string>
+    <string name="name_text">Name: </string>
+    <string name="addr_text">Address: </string>
+    <string name="autocomplete_hint">Enter Country </string>
+    <string name="chicken_lbl">Chicken</string>
+    <string name="fish_lbl">Fish</string>
+    <string name="steak_lbl">Steak</string>
+    <string name="my_favorite">My Favorite</string>
+</resources>

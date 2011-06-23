@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActitity!</string>
+    <string name="sub_head">Choose an option from the Menu</string>
+    <string name="app_name">IntentsUtility</string>
+</resources>

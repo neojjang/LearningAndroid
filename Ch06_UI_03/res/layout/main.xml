@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <!-- NAME CONTAINER -->
+  	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="horizontal" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+		<TextView  
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:text="@string/name_text"
+		/>
+		<TextView 
+			android:id="@+id/nameValue"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+		/>
+	</LinearLayout>
+	<!-- ADDRESS CONTAINER -->
+  	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+		<TextView  
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:text="@string/addr_text"
+		/>
+		<TextView
+			android:id="@+id/addrValue"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+		/>
+	</LinearLayout>
+	<!-- Auto complete test -->
+  	<LinearLayout 
+  		android:id="@+id/linearLayout1" 
+  		android:layout_height="wrap_content" 
+  		android:layout_width="match_parent">
+  		<AutoCompleteTextView 
+  			android:hint="@string/autocomplete_hint" 
+  			android:id="@+id/actv" 
+  			android:layout_width="wrap_content" 
+  			android:layout_height="wrap_content">
+  		</AutoCompleteTextView>
+  	</LinearLayout>
+  	<!-- Radio Button test -->
+  	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  		android:orientation="vertical"
+  		android:layout_width="fill_parent"
+  		android:layout_height="fill_parent">
+  		<RadioButton 
+  			android:id="@+id/anotherRadBtn"
+  			android:text="Outside"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  		/>
+  		<RadioGroup
+  			android:id="@+id/radGrp"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content">
+  			<RadioButton
+  				android:id="@+id/chRBtn"
+  				android:text="@string/chicken_lbl"
+  				android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"/>
+  			<RadioButton
+  				android:id="@+id/fishRBtn"
+  				android:text="@string/fish_lbl"
+  				android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"/>
+  			<RadioButton
+  				android:id="@+id/stkRBtn"
+  				android:text="@string/steak_lbl"
+  				android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"/>
+  			<TextView
+  				android:text="@string/my_favorite"
+  				android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"/>
+  		</RadioGroup>
+  	</LinearLayout>
+  		
+  	
+</LinearLayout>
