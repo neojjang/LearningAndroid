@@ -1,0 +1,87 @@
+# OS generated files 
+######################
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# XCode user data
+#################
+**.pbxuser
+**.mode?
+**.mode?v?
+**.perspectivev?
+
+# Generated files
+#################
+VersionX-revision.h
+
+# Other source repository archive directories (protects when importing)
+#######################################################################
+.hg
+.svn
+CVS
+
+
+# automatic backup files
+########################
+*~.nib
+*.swp
+*~
+*(Autosaved).rtfd/
+Backup[ ]of[ ]*.pages/
+Backup[ ]of[ ]*.key/
+Backup[ ]of[ ]*.numbers/
+
+
+# Compiled source 
+#################
+*.com
+*.class
+*.dll
+*.exe
+*.pdb
+*.dll.config
+
+
+# Directories 
+#############
+# /bin
+/obj
+/TestResults
+
+# build directories
+###################
+**/build/*
+build/*
+
+# android build and generated directories
+#########################################
+/local.properties
+/gen/
+/bin/
+
+# build products 
+################
+*.[oa]
+!libGoogleAnalytics.a
+
+
+# Packages 
+##########
+# it’s better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+*.zip
+
+# Logs and databases 
+####################
+*.log
+*.sqlite
+

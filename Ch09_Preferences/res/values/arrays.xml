@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- this file is /res/values/arrays.xml -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<string-array name="flight_sort_options">
+		<item>Total Cost</item>
+		<item># of stops</item>
+		<item>Airline</item>
+	</string-array>
+	<string-array name="flight_sort_options_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+</resources>
