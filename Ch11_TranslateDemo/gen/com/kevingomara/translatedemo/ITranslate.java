@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: /Users/kgomara/Documents/MyProjects/Ch11_TranslateDemo/src/com/kevingomara/translatedemo/ITranslate.aidl
+ * Original file: /Users/kgomara/Documents/MyProjects/LearningAndroid/Ch11_TranslateDemo/src/com/kevingomara/translatedemo/ITranslate.aidl
  */
 package com.kevingomara.translatedemo;
 public interface ITranslate extends android.os.IInterface

@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: /Users/kgomara/Documents/MyProjects/Ch11_StockQuoteService/src/com/kevingomara/stockquoteservice/IStockQuoteService.aidl
+ * Original file: /Users/kgomara/Documents/MyProjects/LearningAndroid/Ch11_StockQuoteService/src/com/kevingomara/stockquoteservice/IStockQuoteService.aidl
  */
 package com.kevingomara.stockquoteservice;
 public interface IStockQuoteService extends android.os.IInterface
