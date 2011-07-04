@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<group android:id="@+id/menuGrp_Main">
+		<item android:id="@+id/menu_clear" android:title="Clear" />
+		<item android:id="@+id/menu_test_thread" android:title="Test Worker Thread" />
+		<item android:id="@+id/menu_test_defered_handler" android:title="Defered Handler" />		
+	</group>
+</menu>
