@@ -32,7 +32,11 @@ public class MainActivity extends Activity {
     public boolean onOptionsItemSelected(MenuItem item) {
     	
     	String reply = Alerts.prompt("Enter a message", this);
-    	Log.v("Dialogs", reply);
+    	if (reply == null) {
+    		Log.v("Dialogs", "reply is null");
+    	} else {
+    		Log.v("Dialogs", reply);
+    	}
     	
     	return true;
     }
