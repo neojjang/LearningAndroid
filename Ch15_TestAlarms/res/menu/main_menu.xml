@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<group android:id="@+id/mainMenuGrp">
+		<item android:id="@+id/menuAlarmOnce" android:title="Alarm Once" />
+		<item android:id="@+id/menuAlarmRepeated" android:title="Alarm Repeat" />
+		<item android:id="@+id/menuAlarmCancel" android:title="Cancel Alarms" />
+		<item android:id="@+id/menuAlarmMultiple" android:title="Multiple Alarms" />
+		<item android:id="@+id/menuAlarmDistinctIntents" android:title="Distinct Intents" />
+		<item android:id="@+id/menuAlarmIntentPrimacy" android:title="Intent Primacy" />
+		<item android:id="@+id/menuClear" android:title="Clear" />
+	</group>
+</menu>
