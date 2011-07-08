@@ -12,7 +12,11 @@ public class TestAlarmsDriverActivity extends Activity implements IReportBack {
 	
 	private static final String TAG = "TestAlarmsDriverActivity";
 	
-	private SendAlarmOnceTester alarmTester = null;
+	private SendAlarmOnceTester alarmOnceTester = null;
+	private SendRepeatingAlarmTester repeatingAlarmTester = null;
+	private CancelRepeatingAlarmTester cancelRepeatingAlarmTester = null;
+	private ScheduleDistinctIntentsTester scheduleDistinctIntentsTester = null;
+	
 	private TextView textView = null;
 	
     /** Called when the activity is first created. */
@@ -21,7 +25,11 @@ public class TestAlarmsDriverActivity extends Activity implements IReportBack {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         
-        alarmTester = new SendAlarmOnceTester(this, this);
+        alarmOnceTester = new SendAlarmOnceTester(this, this);
+        repeatingAlarmTester = new SendRepeatingAlarmTester(this, this);
+        cancelRepeatingAlarmTester = new CancelRepeatingAlarmTester(this, this);
+        scheduleDistinctIntentsTester = new ScheduleDistinctIntentsTester(this, this);
+        
         textView = (TextView) findViewById(R.id.textView);
     }
     
@@ -44,7 +52,19 @@ public class TestAlarmsDriverActivity extends Activity implements IReportBack {
     		textView.setText("");
     		break;
     	case R.id.menuAlarmOnce:
-    		alarmTester.sendAlarmOnce();
+    		alarmOnceTester.sendAlarmOnce();
+    		break;
+    	case R.id.menuAlarmRepeated:
+    		repeatingAlarmTester.sendRepeatingAlarm();
+    		break;
+    	case R.id.menuAlarmCancel:
+    		cancelRepeatingAlarmTester.cancelRepeatingAlarm();
+    		break;
+    	case R.id.menuAlarmMultiple:
+    		scheduleDistinctIntentsTester.scheduleSameIntentMultipleTimes();
+    		break;
+    	case R.id.menuAlarmDistinctIntents:
+    		scheduleDistinctIntentsTester.scheduleDistinctIntents();
     		break;
     	default:
     		Log.d(TAG, "menuItem not implemented = " + menuItem.getItemId());
